@@ -1,0 +1,103 @@
+/* 前端样式 */
+.lekefu-container {
+    position: fixed;
+    z-index: 999999;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.lekefu-container.left-bottom {
+    left: 20px;
+    bottom: 20px;
+}
+
+.lekefu-container.center-bottom {
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.lekefu-container.center-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lekefu-container.right-bottom {
+    right: 20px;
+    bottom: 20px;
+}
+
+.lekefu-content {
+    position: relative;
+    text-align: center;
+}
+
+.lekefu-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    color: #666;
+    transition: all 0.2s ease;
+}
+
+.lekefu-close:hover {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.lekefu-qr-image {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.lekefu-description {
+    margin: 10px 0 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* 后台样式 */
+.lekefu-image-upload {
+    margin: 10px 0;
+}
+
+.lekefu-image-upload #lekefu_image_preview {
+    margin-top: 10px;
+}
+
+.lekefu-image-upload #lekefu_image_preview img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+/* 响应式样式 */
+@media screen and (max-width: 768px) {
+    .lekefu-container {
+        padding: 15px;
+    }
+    
+    .lekefu-qr-image {
+        max-width: 150px;
+    }
+    
+    .lekefu-description {
+        font-size: 12px;
+    }
+} 
