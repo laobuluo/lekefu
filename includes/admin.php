@@ -92,7 +92,7 @@ function lekefu_options_page() {
     ?>
     <div class="wrap">
         <h1>插件设置</h1>
-        <p>WordPress 主页客服二维码设置插件。<a href="https://www.lezaiyun.com/897.html" target="_blank">插件介绍</a>（公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
+        <p>WordPress 主页客服二维码设置插件。<a href="https://www.laojiang.me/6215.html" target="_blank">插件介绍</a>（公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
 
         <form method="post" action="options.php">
             <?php
